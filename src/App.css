@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkatra&family=Dancing+Script&family=Playfair+Display:ital@1&family=Poppins&family=Rubik+Maze&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container{
+  margin-top:20px;
+}
+.row{
+  justify-content: center;
+}
+*{
+  color: black;
+}
+.card{
+  border:3px solid rgba(0, 0, 255, 0.527);
+  background-color: rgb(0, 229, 255);
+  border-radius: 8px;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+  font-family: 'Dancing Script';
+ 
+  
+}
+.res{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-style:oblique;
+  text-align: center;
+  color: gray;
+}
+.card img{
+  height: 300px;
+  width: 200px;
+}
+.card-body a{
+  font-family: 'Playfair Display', serif;
+}
+.navbar{
+  background-color: rgba(137, 43, 226, 0.567);
+  border-radius: 9px;
+}
+.navbar-brand{
+  font-size: 2.2rem;
+  font-family: 'Playfair Display', serif;
+}
+.navbar-brand:hover{
+  text-shadow: 2px 2px rgb(252, 78, 252);
+}
+.nav-link{
+  font-size: 1.1rem;
+}
+.nav-link:hover{
+  text-shadow: 2px -2px rgb(184, 4, 255);
+}
+.nav-item:hover{
+  text-shadow: 2px -2px rgb(109, 4, 255);
+}
+.nav-item{
+  font-size: 1.1rem;
+  font-family: 'Playfair Display', serif;
+  margin-right:18px;
+  padding-left: 7px;
+}
+
+
+.d-block{
+  height: 500px;
+  width: 40%;
+}
+
+
+.d-flex{
+  width: 50%;
+  margin-left: 350px;
+}
+.d-flex input{
+  padding: 13px;
+  background-color: rgb(246, 194, 252);
+  border-radius: 9px;
+}
+.d-flex input:hover{
+  background-color: rgb(244, 220, 248);
+}
+.d-flex button{
+  padding-left: 24px ;
+  padding-right: 24px;
+}
